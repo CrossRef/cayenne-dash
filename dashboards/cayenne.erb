@@ -1,15 +1,28 @@
+<script type='text/javascript'>
+$(function() {
+  // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+  Dashing.widget_base_dimensions = [370, 340]
+  Dashing.numColumns = 5
+});
+</script>
+
+<% content_for :title do %>Cayenne Metrics<% end %>
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="cayenne.data.deposit-size.mean" data-view="Number" data-title="Mean deposit size"
            data-suffix="B"></div>
     </li>
-    <li data=row="1" data-col="2" data-sizex="1" data-sizey="1">
-      <div data-id="cayenne.data.deposits-received" data-view="Number" data-title="Deposit rate"
-           data-moreinfo="Per minute"></div>
-    <li>
-    <li data=row="1" data-col="3" data-sizex="1" data-sizey="1">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="cayenne.data.deposit-size.max" data-view="Number" data-title="Max deposit size"
+           data-suffix="B"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="cayenne.data.deposit-size.min" data-view="Number" data-title="Min deposit size"
+           data-suffix="B"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="cayenne.data.deposit-count" data-view="Number" data-title="Deposits to date"></div>
-    <li>
+    </li>
   </ul>
 </div>

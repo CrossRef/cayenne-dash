@@ -11,7 +11,7 @@ SCHEDULER.every '5s', :first_in => 0 do |job|
       when 'meter'
         send_event(name, {current: metric_info['rates']['1']})
       when 'gauge'
-        send_event(name, {current: metric_info['current']})
+        send_event(name, {current: metric_info['value']})
       when 'histogram'
         send_event(name + '.mean', {current: metric_info['mean']})
         send_event(name + '.min', {current: metric_info['min']})
