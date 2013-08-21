@@ -9,7 +9,7 @@ SCHEDULER.every '5s', :first_in => 0 do |job|
     metrics.each_pair do |name, metric_info|
       case metric_info['type']
       when 'meter'
-        val = (metric_info['rates']['1'] * 100).floor
+        val = metric_info['rates']['1'].round(2)
         send_event(name, {value: val, current: val})
       when 'gauge'
         send_event(name, {value: metric_info['value'], current: metric_info['value']})
