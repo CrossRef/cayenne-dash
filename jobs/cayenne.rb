@@ -9,9 +9,12 @@ SCHEDULER.every '5s', :first_in => 0 do |job|
     metrics.each_pair do |name, metric_info|
       case metric_info['type']
       when 'meter'
-        send_event(name, {current: metric_info['rates']['1']})
+        val = (metric_info['rates']['1'] * 100).floor
+        send_event(name, {value: val, current: val})
       when 'gauge'
-        send_event(name, {current: metric_info['value']})
+        send_event(name, {value: metric_info['value'], current: metric_info['value']})
+      when 'counter'
+        send_event(name, {value: metric_info['value'], current: metric_info['value']})
       when 'histogram'
         send_event(name + '.mean', {current: metric_info['mean']})
         send_event(name + '.min', {current: metric_info['min']})

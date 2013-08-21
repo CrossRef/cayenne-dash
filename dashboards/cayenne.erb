@@ -24,5 +24,31 @@ $(function() {
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="cayenne.data.deposit-count" data-view="Number" data-title="Deposits to date"></div>
     </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="cayenne.data.deposits-received" data-view="Meter" data-title="Deposit rate"
+           data-moreinfo="Per minute of historical max" data-min="0" data-max="100" data-suffix="%"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="ring.requests.rate" data-view="Meter" data-title="API request rate"
+           data-moreinfo="Per minute of historical max" data-min="0" data-max="100" data-suffix="%"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="ring.responses.rate.4xx" data-view="Meter" data-title="API fail rate"
+           data-moreinfo="Per minute of historical max" data-min="0" data-max="100" data-suffix="%"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="cayenne.jobs.waiting" data-view="Meter" data-title="Jobs queued"
+           data-min="0" data-max="1000"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="cayenne.jobs.completed" data-view="Number" data-title="Jobs completed"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="cayenne.jobs.failed" data-view="Number" data-title="Jobs failed"></div>
+    </li>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="cayenne.jobs.running" data-view="Meter" data-title="Jobs running"
+           data-min="0" data-max="40"></div>
+    </li>
   </ul>
 </div>
