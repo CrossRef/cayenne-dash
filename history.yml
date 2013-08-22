@@ -1,221 +1,225 @@
 ---
-ring.responses.rate.4xx: ! 'data: {"value":0,"current":0,"id":"ring.responses.rate.4xx","updatedAt":1377102598}
+ring.responses.rate.4xx: ! 'data: {"value":0.0,"current":0.0,"id":"ring.responses.rate.4xx","updatedAt":1377177404}
 
 
 '
-cayenne.data.deposit-size.mean: ! 'data: {"current":0.0,"id":"cayenne.data.deposit-size.mean","updatedAt":1377102598}
+cayenne.data.deposit-size.mean: ! 'data: {"current":0.0,"id":"cayenne.data.deposit-size.mean","updatedAt":1377177404}
 
 
 '
-cayenne.data.deposit-size.min: ! 'data: {"current":0.0,"id":"cayenne.data.deposit-size.min","updatedAt":1377102598}
+cayenne.data.deposit-size.min: ! 'data: {"current":0.0,"id":"cayenne.data.deposit-size.min","updatedAt":1377177404}
 
 
 '
-cayenne.data.deposit-size.max: ! 'data: {"current":0.0,"id":"cayenne.data.deposit-size.max","updatedAt":1377102598}
+cayenne.data.deposit-size.max: ! 'data: {"current":0.0,"id":"cayenne.data.deposit-size.max","updatedAt":1377177404}
 
 
 '
-cayenne.data.deposit-size.sd: ! 'data: {"current":0.0,"id":"cayenne.data.deposit-size.sd","updatedAt":1377102598}
+cayenne.data.deposit-size.sd: ! 'data: {"current":0.0,"id":"cayenne.data.deposit-size.sd","updatedAt":1377177404}
 
 
 '
-ring.responses.rate.5xx: ! 'data: {"value":0,"current":0,"id":"ring.responses.rate.5xx","updatedAt":1377102598}
+ring.responses.rate.5xx: ! 'data: {"value":0.0,"current":0.0,"id":"ring.responses.rate.5xx","updatedAt":1377177404}
 
 
 '
-ring.handling-time.DELETE.mean: ! 'data: {"current":0.0,"id":"ring.handling-time.DELETE.mean","updatedAt":1377102598}
+ring.handling-time.DELETE.mean: ! 'data: {"current":0.0,"id":"ring.handling-time.DELETE.mean","updatedAt":1377177404}
 
 
 '
-ring.handling-time.DELETE.min: ! 'data: {"current":0.0,"id":"ring.handling-time.DELETE.min","updatedAt":1377102598}
+ring.handling-time.DELETE.min: ! 'data: {"current":0.0,"id":"ring.handling-time.DELETE.min","updatedAt":1377177404}
 
 
 '
-ring.handling-time.DELETE.max: ! 'data: {"current":0.0,"id":"ring.handling-time.DELETE.max","updatedAt":1377102598}
+ring.handling-time.DELETE.max: ! 'data: {"current":0.0,"id":"ring.handling-time.DELETE.max","updatedAt":1377177404}
 
 
 '
-ring.handling-time.DELETE.sd: ! 'data: {"current":0.0,"id":"ring.handling-time.DELETE.sd","updatedAt":1377102598}
+ring.handling-time.DELETE.sd: ! 'data: {"current":0.0,"id":"ring.handling-time.DELETE.sd","updatedAt":1377177404}
 
 
 '
-ring.handling-time.DELETE: ! 'data: {"current":0.0,"id":"ring.handling-time.DELETE","updatedAt":1377102598}
+ring.handling-time.DELETE: ! 'data: {"current":0.0,"id":"ring.handling-time.DELETE","updatedAt":1377177404}
 
 
 '
-ring.requests.rate.HEAD: ! 'data: {"value":0,"current":0,"id":"ring.requests.rate.HEAD","updatedAt":1377102598}
+ring.requests.rate.HEAD: ! 'data: {"value":0.0,"current":0.0,"id":"ring.requests.rate.HEAD","updatedAt":1377177404}
 
 
 '
-ring.requests.rate.POST: ! 'data: {"value":0,"current":0,"id":"ring.requests.rate.POST","updatedAt":1377102598}
+ring.requests.rate.POST: ! 'data: {"value":0.0,"current":0.0,"id":"ring.requests.rate.POST","updatedAt":1377177404}
 
 
 '
-ring.handling-time.OPTIONS.mean: ! 'data: {"current":0.0,"id":"ring.handling-time.OPTIONS.mean","updatedAt":1377102598}
+ring.handling-time.OPTIONS.mean: ! 'data: {"current":0.0,"id":"ring.handling-time.OPTIONS.mean","updatedAt":1377177404}
 
 
 '
-ring.handling-time.OPTIONS.min: ! 'data: {"current":0.0,"id":"ring.handling-time.OPTIONS.min","updatedAt":1377102598}
+ring.handling-time.OPTIONS.min: ! 'data: {"current":0.0,"id":"ring.handling-time.OPTIONS.min","updatedAt":1377177404}
 
 
 '
-ring.handling-time.OPTIONS.max: ! 'data: {"current":0.0,"id":"ring.handling-time.OPTIONS.max","updatedAt":1377102598}
+ring.handling-time.OPTIONS.max: ! 'data: {"current":0.0,"id":"ring.handling-time.OPTIONS.max","updatedAt":1377177404}
 
 
 '
-ring.handling-time.OPTIONS.sd: ! 'data: {"current":0.0,"id":"ring.handling-time.OPTIONS.sd","updatedAt":1377102598}
+ring.handling-time.OPTIONS.sd: ! 'data: {"current":0.0,"id":"ring.handling-time.OPTIONS.sd","updatedAt":1377177404}
 
 
 '
-ring.handling-time.OPTIONS: ! 'data: {"current":0.0,"id":"ring.handling-time.OPTIONS","updatedAt":1377102598}
+ring.handling-time.OPTIONS: ! 'data: {"current":0.0,"id":"ring.handling-time.OPTIONS","updatedAt":1377177404}
 
 
 '
-cayenne.data.deposits-received: ! 'data: {"value":0,"current":0,"id":"cayenne.data.deposits-received","updatedAt":1377102598}
+cayenne.data.deposits-received: ! 'data: {"value":0.0,"current":0.0,"id":"cayenne.data.deposits-received","updatedAt":1377177404}
 
 
 '
-ring.requests.rate: ! 'data: {"value":20,"current":20,"id":"ring.requests.rate","updatedAt":1377102598}
+ring.requests.rate: ! 'data: {"value":0.2,"current":0.2,"id":"ring.requests.rate","updatedAt":1377177404}
 
 
 '
-ring.requests.rate.DELETE: ! 'data: {"value":0,"current":0,"id":"ring.requests.rate.DELETE","updatedAt":1377102598}
+ring.requests.rate.DELETE: ! 'data: {"value":0.0,"current":0.0,"id":"ring.requests.rate.DELETE","updatedAt":1377177404}
 
 
 '
-ring.requests.rate.PUT: ! 'data: {"value":0,"current":0,"id":"ring.requests.rate.PUT","updatedAt":1377102598}
+ring.requests.rate.PUT: ! 'data: {"value":0.0,"current":0.0,"id":"ring.requests.rate.PUT","updatedAt":1377177404}
 
 
 '
-cayenne.data.deposit-count: ! 'data: {"value":8,"current":8,"id":"cayenne.data.deposit-count","updatedAt":1377102598}
+cayenne.data.deposit-count: ! 'data: {"value":9,"current":9,"id":"cayenne.data.deposit-count","updatedAt":1377177404}
 
 
 '
-ring.requests.rate.GET: ! 'data: {"value":20,"current":20,"id":"ring.requests.rate.GET","updatedAt":1377102598}
+ring.requests.rate.GET: ! 'data: {"value":0.2,"current":0.2,"id":"ring.requests.rate.GET","updatedAt":1377177404}
 
 
 '
-ring.handling-time.POST.mean: ! 'data: {"current":0.0,"id":"ring.handling-time.POST.mean","updatedAt":1377102598}
+ring.handling-time.POST.mean: ! 'data: {"current":0.0,"id":"ring.handling-time.POST.mean","updatedAt":1377177404}
 
 
 '
-ring.handling-time.POST.min: ! 'data: {"current":0.0,"id":"ring.handling-time.POST.min","updatedAt":1377102598}
+ring.handling-time.POST.min: ! 'data: {"current":0.0,"id":"ring.handling-time.POST.min","updatedAt":1377177404}
 
 
 '
-ring.handling-time.POST.max: ! 'data: {"current":0.0,"id":"ring.handling-time.POST.max","updatedAt":1377102598}
+ring.handling-time.POST.max: ! 'data: {"current":0.0,"id":"ring.handling-time.POST.max","updatedAt":1377177404}
 
 
 '
-ring.handling-time.POST.sd: ! 'data: {"current":0.0,"id":"ring.handling-time.POST.sd","updatedAt":1377102598}
+ring.handling-time.POST.sd: ! 'data: {"current":0.0,"id":"ring.handling-time.POST.sd","updatedAt":1377177404}
 
 
 '
-ring.handling-time.POST: ! 'data: {"current":0.0,"id":"ring.handling-time.POST","updatedAt":1377102598}
+ring.handling-time.POST: ! 'data: {"current":0.0,"id":"ring.handling-time.POST","updatedAt":1377177404}
 
 
 '
-ring.handling-time.HEAD.mean: ! 'data: {"current":0.0,"id":"ring.handling-time.HEAD.mean","updatedAt":1377102598}
+ring.handling-time.HEAD.mean: ! 'data: {"current":0.0,"id":"ring.handling-time.HEAD.mean","updatedAt":1377177404}
 
 
 '
-ring.handling-time.HEAD.min: ! 'data: {"current":0.0,"id":"ring.handling-time.HEAD.min","updatedAt":1377102598}
+ring.handling-time.HEAD.min: ! 'data: {"current":0.0,"id":"ring.handling-time.HEAD.min","updatedAt":1377177404}
 
 
 '
-ring.handling-time.HEAD.max: ! 'data: {"current":0.0,"id":"ring.handling-time.HEAD.max","updatedAt":1377102598}
+ring.handling-time.HEAD.max: ! 'data: {"current":0.0,"id":"ring.handling-time.HEAD.max","updatedAt":1377177404}
 
 
 '
-ring.handling-time.HEAD.sd: ! 'data: {"current":0.0,"id":"ring.handling-time.HEAD.sd","updatedAt":1377102598}
+ring.handling-time.HEAD.sd: ! 'data: {"current":0.0,"id":"ring.handling-time.HEAD.sd","updatedAt":1377177404}
 
 
 '
-ring.handling-time.HEAD: ! 'data: {"current":0.0,"id":"ring.handling-time.HEAD","updatedAt":1377102598}
+ring.handling-time.HEAD: ! 'data: {"current":0.0,"id":"ring.handling-time.HEAD","updatedAt":1377177404}
 
 
 '
-ring.handling-time.PUT.mean: ! 'data: {"current":0.0,"id":"ring.handling-time.PUT.mean","updatedAt":1377102598}
+ring.handling-time.PUT.mean: ! 'data: {"current":0.0,"id":"ring.handling-time.PUT.mean","updatedAt":1377177404}
 
 
 '
-ring.handling-time.PUT.min: ! 'data: {"current":0.0,"id":"ring.handling-time.PUT.min","updatedAt":1377102598}
+ring.handling-time.PUT.min: ! 'data: {"current":0.0,"id":"ring.handling-time.PUT.min","updatedAt":1377177404}
 
 
 '
-ring.handling-time.PUT.max: ! 'data: {"current":0.0,"id":"ring.handling-time.PUT.max","updatedAt":1377102598}
+ring.handling-time.PUT.max: ! 'data: {"current":0.0,"id":"ring.handling-time.PUT.max","updatedAt":1377177404}
 
 
 '
-ring.handling-time.PUT.sd: ! 'data: {"current":0.0,"id":"ring.handling-time.PUT.sd","updatedAt":1377102598}
+ring.handling-time.PUT.sd: ! 'data: {"current":0.0,"id":"ring.handling-time.PUT.sd","updatedAt":1377177404}
 
 
 '
-ring.handling-time.PUT: ! 'data: {"current":0.0,"id":"ring.handling-time.PUT","updatedAt":1377102598}
+ring.handling-time.PUT: ! 'data: {"current":0.0,"id":"ring.handling-time.PUT","updatedAt":1377177404}
 
 
 '
-ring.responses.rate: ! 'data: {"value":20,"current":20,"id":"ring.responses.rate","updatedAt":1377102598}
+ring.responses.rate: ! 'data: {"value":0.2,"current":0.2,"id":"ring.responses.rate","updatedAt":1377177404}
 
 
 '
-ring.requests.rate.OPTIONS: ! 'data: {"value":0,"current":0,"id":"ring.requests.rate.OPTIONS","updatedAt":1377102598}
+ring.requests.rate.OPTIONS: ! 'data: {"value":0.0,"current":0.0,"id":"ring.requests.rate.OPTIONS","updatedAt":1377177404}
 
 
 '
-ring.responses.rate.2xx: ! 'data: {"value":20,"current":20,"id":"ring.responses.rate.2xx","updatedAt":1377102598}
+ring.responses.rate.2xx: ! 'data: {"value":0.2,"current":0.2,"id":"ring.responses.rate.2xx","updatedAt":1377177404}
 
 
 '
-ring.handling-time.GET.mean: ! 'data: {"current":47.76363913043478,"id":"ring.handling-time.GET.mean","updatedAt":1377102598}
+ring.handling-time.GET.mean: ! 'data: {"current":4.529036612244898,"id":"ring.handling-time.GET.mean","updatedAt":1377177404}
 
 
 '
-ring.handling-time.GET.min: ! 'data: {"current":5.442,"id":"ring.handling-time.GET.min","updatedAt":1377102598}
+ring.handling-time.GET.min: ! 'data: {"current":2.118136,"id":"ring.handling-time.GET.min","updatedAt":1377177404}
 
 
 '
-ring.handling-time.GET.max: ! 'data: {"current":290.343,"id":"ring.handling-time.GET.max","updatedAt":1377102598}
+ring.handling-time.GET.max: ! 'data: {"current":41.299971,"id":"ring.handling-time.GET.max","updatedAt":1377177404}
 
 
 '
-ring.handling-time.GET.sd: ! 'data: {"current":25.147628140046887,"id":"ring.handling-time.GET.sd","updatedAt":1377102598}
+ring.handling-time.GET.sd: ! 'data: {"current":6.827793499208797,"id":"ring.handling-time.GET.sd","updatedAt":1377177404}
 
 
 '
-ring.handling-time.GET: ! 'data: {"current":0.20000010909358723,"id":"ring.handling-time.GET","updatedAt":1377102598}
+ring.handling-time.GET: ! 'data: {"current":0.1966297597480105,"id":"ring.handling-time.GET","updatedAt":1377177404}
 
 
 '
-ring.responses.rate.3xx: ! 'data: {"value":0,"current":0,"id":"ring.responses.rate.3xx","updatedAt":1377102598}
+ring.responses.rate.3xx: ! 'data: {"value":0.0,"current":0.0,"id":"ring.responses.rate.3xx","updatedAt":1377177404}
 
 
 '
-cayenne.jobs.running: ! 'data: {"value":0,"current":0,"id":"cayenne.jobs.running","updatedAt":1377102598}
+cayenne.jobs.running: ! 'data: {"value":10,"current":10,"id":"cayenne.jobs.running","updatedAt":1377177404}
 
 
 '
-cayenne.jobs.failed: ! 'data: {"value":8,"current":8,"id":"cayenne.jobs.failed","updatedAt":1377102598}
+cayenne.jobs.failed: ! 'data: {"value":1,"current":1,"id":"cayenne.jobs.failed","updatedAt":1377177404}
 
 
 '
-cayenne.jobs.completed: ! 'data: {"value":29,"current":29,"id":"cayenne.jobs.completed","updatedAt":1377102598}
+cayenne.jobs.completed: ! 'data: {"value":386,"current":386,"id":"cayenne.jobs.completed","updatedAt":1377177404}
 
 
 '
-cayenne.jobs.waiting: ! 'data: {"value":0,"current":0,"id":"cayenne.jobs.waiting","updatedAt":1377102598}
+cayenne.jobs.waiting: ! 'data: {"value":314,"current":314,"id":"cayenne.jobs.waiting","updatedAt":1377177404}
 
 
 '
-ring.requests.active: ! 'data: {"value":1,"current":1,"id":"ring.requests.active","updatedAt":1377102598}
+ring.requests.active: ! 'data: {"value":1,"current":1,"id":"ring.requests.active","updatedAt":1377177404}
 
 
 '
-cayenne.xml.record-process-rate: ! 'data: {"value":0,"current":0,"id":"cayenne.xml.record-process-rate","updatedAt":1377102598}
+cayenne.xml.record-process-rate: ! 'data: {"value":140.52,"current":140.52,"id":"cayenne.xml.record-process-rate","updatedAt":1377177404}
 
 
 '
-cayenne.xml.records-processed: ! 'data: {"value":4206,"current":4206,"id":"cayenne.xml.records-processed","updatedAt":1377102598}
+cayenne.xml.records-processed: ! 'data: {"value":41474,"current":41474,"id":"cayenne.xml.records-processed","updatedAt":1377177404}
+
+
+'
+cayenne.data.deposit-size: ! 'data: {"points":[{"y":"1.0","x":0.0},{"y":"0.999","x":0.0},{"y":"0.99","x":0.0},{"y":"0.95","x":0.0},{"y":"0.75","x":0.0}],"id":"cayenne.data.deposit-size","updatedAt":1377177404}
 
 
 '

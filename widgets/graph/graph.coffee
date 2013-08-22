@@ -15,9 +15,10 @@ class Dashing.Graph extends Dashing.Widget
       element: @node
       width: width
       height: height
+      renderer: 'bar'
       series: [
         {
-        color: "#fff",
+        color: "#fff"
         data: [{x:0, y:0}]
         }
       ]
@@ -25,8 +26,8 @@ class Dashing.Graph extends Dashing.Widget
 
     @graph.series[0].data = @get('points') if @get('points')
 
-    x_axis = new Rickshaw.Graph.Axis.Time(graph: @graph)
-    y_axis = new Rickshaw.Graph.Axis.Y(graph: @graph, tickFormat: Rickshaw.Fixtures.Number.formatKMBT)
+    #x_axis = new Rickshaw.Graph.Axis.Time(graph: @graph)
+    #y_axis = new Rickshaw.Graph.Axis.Y(graph: @graph, tickFormat: Rickshaw.Fixtures.Number.formatKMBT)
     @graph.render()
 
   onData: (data) ->

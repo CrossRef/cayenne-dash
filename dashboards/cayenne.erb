@@ -12,15 +12,10 @@ $(function() {
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="cayenne.data.deposit-size.mean" data-view="Number" data-title="Mean deposit size"
            data-suffix="B"></div>
-    </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="cayenne.data.deposit-size.max" data-view="Number" data-title="Max deposit size"
-           data-suffix="B"></div>
-    </li>
-    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="cayenne.data.deposit-size.min" data-view="Number" data-title="Min deposit size"
-           data-suffix="B"></div>
-    </li>
+    </li>  
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="cayenne.data.deposit-size" data-graphtype="bar" data-view="Graph" data-title="Deposit sizes"></div>
+    </li>      
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="cayenne.data.deposit-count" data-view="Number" data-title="Deposits to date"></div>
     </li>
@@ -54,7 +49,7 @@ $(function() {
       <div data-id="cayenne.xml.record-process-rate" data-view="Meter" 
            data-title="Record processing rate"
 	   data-moreinfo="Avg. per second over last 5 mins"
-           data-min="0" data-max="100"></div>
+           data-min="0" data-max="250"></div>
     </li>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="cayenne.xml.records-processed" data-view="Number" 

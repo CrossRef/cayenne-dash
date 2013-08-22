@@ -1,7 +1,7 @@
 require 'json'
 require 'net/http'
 
-SCHEDULER.every '5s', :first_in => 0 do |job|
+SCHEDULER.every '1s', :first_in => 0 do |job|
   begin
     uri = URI.parse('http://localhost:3000/metrics')
     metrics = JSON.parse(Net::HTTP.get(uri))
@@ -20,6 +20,14 @@ SCHEDULER.every '5s', :first_in => 0 do |job|
         send_event(name + '.min', {current: metric_info['min']})
         send_event(name + '.max', {current: metric_info['max']})
         send_event(name + '.sd', {current: metric_info['standard-deviation']})
+        
+        series = []
+        
+        metric_info['percentiles'].each_pair do |percentile, val|
+          series << {:y => percentile.to_s, :x => val}
+        end
+
+        send_event(name, {points: series})
       when 'timer'
         send_event(name + '.mean', {current: metric_info['mean']})
         send_event(name + '.min', {current: metric_info['min']})
